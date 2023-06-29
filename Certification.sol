@@ -21,7 +21,7 @@ contract Titulo_UVM_G22_2023 {
  year_of_award = "Junio 22 de 2022";
  country = "Mexico";
  folio_digital = "ERC_2352525F453";
- }
+ };
     modifier owner() {
         require(msg.sender == minter);
         _;
